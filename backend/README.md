@@ -27,3 +27,23 @@ Desarrollar un sistema CRM inteligente con integración nativa a WhatsApp y corr
 * Panel de métricas con visualización de KPIs clave (contactos activos, mensajes enviados, tasa de respuesta).
 * Documentación de endpoints y guía de instalación.
 ```
+
+## Instalación y Uso (Frontend)
+
+Para levantar el entorno de desarrollo del frontend, sigue estos pasos:
+
+1. Clona el repositorio si aún no lo has hecho.
+2. Asegúrate de tener instalado [Node.js](https://nodejs.org/) y [pnpm](https://pnpm.io/) en tu equipo.
+3. Abre una terminal y navega a la carpeta principal, luego entra al directorio del frontend:
+   ```bash
+   cd frontend
+   ```
+4. Instala todas las dependencias del proyecto utilizando **pnpm**:
+   ```bash
+   pnpm install
+   ```
+5. Inicia el servidor de desarrollo:
+   ```bash
+   pnpm run dev
+   ```
+6. Abre tu navegador y dirígete a `http://localhost:3000` para ver la aplicación corriendo.
